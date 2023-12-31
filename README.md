@@ -1,3 +1,17 @@
+<div align="center">
+  <img src="./public/logo.png" alt="Snaky Codes Logo" width="140" height="auto" />
+</div>
+
+# Snappy
+
+**Snappy** is a social media app where users can upload pictures, comment and like posts.
+
+## Tech Stack
+
+- Client: <a href="https://nextjs.org/">Next.js</a>
+- Server: <a href="https://nextjs.org/">Next.js</a>
+- Database: <a href="https://www.postgresql.org/">PostgreSQL</a>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +48,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Authors
+
+**Soban Syeed**
+
+- GitHub: [@SnakyMz](https://github.com/SnakyMz)
+- LinkedIn: [Soban Syeed](https://www.linkedin.com/in/soban-syeed/)
+- Instagram: [@SobanMz](https://www.instagram.com/sobanmz/)
+
+## License
+
+This project is [MIT](./LICENSE) licensed.
