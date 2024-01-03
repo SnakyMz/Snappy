@@ -38,20 +38,22 @@ export default function Navbar() {
         {open ? <TiDelete /> : <TiThMenu />}
       </button>
       {
-        open ? <nav className={styles.mobileNavigation}>
-          <Link href="/" className={pathName === "/" ? styles.active : undefined}>Homepage</Link>
-          <Link href="/about" className={pathName === "/about" ? styles.active : undefined}>About</Link>
-          <Link href="/contact" className={pathName === "/contact" ? styles.active : undefined}>Contact</Link>
-          <Link href="/posts" className={pathName === "/posts" ? styles.active : undefined}>Posts</Link>
-          {session ? (
-            <>
-              {isAdmin ? <Link href="/admin" className={pathName === "/admin" ? styles.active : undefined}>Admin</Link> : undefined}
-              <button type="button" className={styles.logout}>Logout</button>
-            </>
-          ) : (
-            <Link href="/login" className={pathName === "/login" ? styles.active : undefined}>Login</Link>
-          )}
-        </nav> : undefined
+        open ? (
+          <nav className={styles.mobileNavigation}>
+            <Link href="/" className={pathName === "/" ? styles.active : undefined}>Homepage</Link>
+            <Link href="/about" className={pathName === "/about" ? styles.active : undefined}>About</Link>
+            <Link href="/contact" className={pathName === "/contact" ? styles.active : undefined}>Contact</Link>
+            <Link href="/posts" className={pathName === "/posts" ? styles.active : undefined}>Posts</Link>
+            {session ? (
+              <>
+                {isAdmin ? <Link href="/admin" className={pathName === "/admin" ? styles.active : undefined}>Admin</Link> : undefined}
+                <button type="button" className={styles.logout}>Logout</button>
+              </>
+            ) : (
+              <Link href="/login" className={pathName === "/login" ? styles.active : undefined}>Login</Link>
+            )}
+          </nav>
+        ) : undefined
       }
     </header>
   )

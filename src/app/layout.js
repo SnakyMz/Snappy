@@ -16,7 +16,9 @@ export default function RootLayout({ children }) {
       <body className={handlee.className}>
         <section className="container">
           <Navbar />
-          {children}
+          <main>
+            {children}
+          </main>
           <Footer />
         </section>
       </body>

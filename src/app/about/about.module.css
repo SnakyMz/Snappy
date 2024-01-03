@@ -1,0 +1,24 @@
+.imageDiv {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desc {
+    flex: 1;
+  }
+
+  .imageDiv {
+    display: block;
+    flex: 1;
+    background-color: inherit;
+    position: relative;
+    min-width: 15rem;
+    min-height: 20rem;
+  }
+}

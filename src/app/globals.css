@@ -9,7 +9,6 @@ body {
   background: linear-gradient(-60deg, royalblue, dodgerblue, deepskyblue, skyblue);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  padding: 0.5rem 4%;
 }
 
 @keyframes gradient {
@@ -31,9 +30,18 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0.5rem 4%;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
 }
