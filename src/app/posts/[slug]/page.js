@@ -1,5 +1,5 @@
 export default function Post() {
   return (
-    <section>Post</section>
+    <section>Post details will displayed here</section>
   )
 }
