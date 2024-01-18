@@ -1,5 +1,5 @@
 export default function Posts() {
   return (
-    <section>Posts</section>
+    <section>All Posts will be displayed here</section>
   )
 }
