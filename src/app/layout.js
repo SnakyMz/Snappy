@@ -1,7 +1,9 @@
-import { Inter } from 'next/font/google'
+import { Handlee } from 'next/font/google'
 import './globals.css'
+import Navbar from '@/components/navbar/navbar'
+import Footer from '@/components/footer/footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const handlee = Handlee({ subsets: ["latin"], weight: "400" })
 
 export const metadata = {
   title: 'Snappy',
@@ -11,7 +13,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={handlee.className}>
+        <section className="container">
+          <Navbar />
+          <main>
+            {children}
+          </main>
+          <Footer />
+        </section>
+      </body>
     </html>
   )
 }

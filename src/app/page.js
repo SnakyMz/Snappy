@@ -1,7 +1,8 @@
 export default function Home() {
   return (
-    <main>
+    <section>
       <h1>Hompage</h1>
-    </main>
+      <p>All the posts will be displayed here</p>
+    </section>
   )
 }
